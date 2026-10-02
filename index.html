@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahavir | Student Portfolio</title>
+  <link rel="stylesheet" href="java.css">
+</head>
+<body>
+
+  <!-- ==================== 1. NAVIGATION BAR (<header>) ==================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Website Brand / Logo -->
+      
+
+      <!-- Semantic Navigation Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#academics" class="nav-link">Academics</a></li>
+          <li><a href="#sports" class="nav-link">Sports</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== 2. MAIN CONTENT (<main>) ==================== -->
+  <main>
+
+    <!-- SECTION 1: HOME / HERO -->
+    <section id="home" class="section section-alt">
+      <div className="container" class="container">
+        <div class="hero-wrapper">
+          <!-- Text Introduction -->
+          <div class="hero-text">
+            <span class="student-tag">1st Year CS Undergrad</span>
+            <h1>Hi, I'm <span>Mahavir</span></h1>
+            <p class="hero-tagline">
+              Student at Scaler School of Technology, Bangalore &bull; Startup Enthusiast &bull; Athlete
+            </p>
+            <p class="hero-description">
+              Welcome to my portfolio website built using pure HTML and CSS for my college web development coursework.
+              Explore my academic achievements, competitive sports journey, and ways to get in touch.
+            </p>
+
+            <!-- Navigation Button Links -->
+            
+            <!-- Social Media Handles -->
+            <div class="hero-socials">
+              <span>Connect:</span>
+              <a href="https://www.linkedin.com/mynetwork/grow/" target="_blank" rel="noreferrer">LinkedIn</a>
+              &bull;
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+              &bull;
+              <a href="mailto:smahavir482008@gmail.com">Email</a>
+            </div>
+          </div>
+
+          <!-- Student Photo using semantic <figure> and <figcaption> -->
+          <figure class="profile-figure">
+            <img src="./ChatGPT Image Jul 17, 2026 at 07_54_13 PM.png" alt="Portrait of Mahavir" class="profile-img">
+            <figcaption class="profile-caption">Mahavir &bull; Scaler Bangalore</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT ME -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>About Me</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">My academic background, college life, and passions.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Biography Text -->
+          <div class="about-bio">
+            <p>
+              I am currently a first-year undergraduate student pursuing Computer Science at 
+              <strong>Scaler School of Technology</strong> in Bangalore.
+              I have always been deeply passionate about mathematics, logical problem-solving, and computer science fundamentals.
+            </p>
+            <p>
+              Being situated in Bangalore—the startup capital of India—has inspired me to become an active 
+              <strong>startup enthusiast</strong>. I closely follow how tech entrepreneurs build impactful solutions, conduct user research, and ship software.
+            </p>
+            <p>
+              Beyond academics, sports have been an integral pillar of my life. From winning tournament trophies in cricket to earning a 
+              <strong>silver medal in the 4×100m relay race</strong>, and playing competitive football and volleyball, sports have taught me resilience, tactical decision-making, and high-pressure team communication.
+            </p>
+            <p>
+              I designed this project using pure, semantic HTML5 elements and structured CSS styles, without relying on external JavaScript frameworks.
+            </p>
+          </div>
+
+          <!-- Quick Summary Card -->
+          <div class="about-card">
+            <h3>Quick Details</h3>
+            <ul class="info-list">
+              <li><strong>College:</strong> Scaler School of Tech</li>
+              <li><strong>Location:</strong> Bangalore, India</li>
+              <li><strong>Year:</strong> 1st Year Undergrad</li>
+              <li><strong>Interest:</strong> Startups & Software</li>
+            </ul>
+
+            <div class="skills-wrapper">
+              <h4>Skills Practiced</h4>
+              <ul class="skill-tags">
+                <li>HTML5 Semantic Tags</li>
+                <li>CSS3 (Flexbox & Grid)</li>
+                <li>Responsive Web Design</li>
+                <li>Data Structures Basics</li>
+                <li>Git & GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: ACADEMIC ACHIEVEMENTS -->
+    <section id="academics" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Academic Achievements</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">National entrance examinations scores and undergraduate standing.</p>
+        </div>
+
+        <!-- Academic Grid using CSS Grid -->
+        <div class="cards-grid-4">
+          <!-- JEE Main -->
+          <article class="card">
+            <span class="card-label">National Entrance</span>
+            <div class="card-stat">97.0%ile</div>
+            <div class="card-desc">
+              <strong>JEE Main:</strong> Scored 97 percentile in the Joint Entrance Examination among 1.2M+ candidates across India.
+            </div>
+          </article>
+
+          <!-- COMEDK -->
+          <article class="card">
+            <span class="card-label">State Engineering</span>
+            <div class="card-stat">1.7k Rank</div>
+            <div class="card-desc">
+              <strong>COMEDK UGET:</strong> Secured top merit rank 1,700 for premier engineering colleges across Karnataka.
+            </div>
+          </article>
+
+          <!-- VITEEE -->
+          <article class="card">
+            <span class="card-label">University Test</span>
+            <div class="card-stat">3k Rank</div>
+            <div class="card-desc">
+              <strong>VITEEE:</strong> Ranked 3,000 in the Vellore Institute of Technology Engineering Entrance Examination.
+            </div>
+          </article>
+
+          <!-- Scaler -->
+          <article class="card">
+            <span class="card-label">Undergraduate</span>
+            <div class="card-stat">1st Year</div>
+            <div class="card-desc">
+              <strong>Scaler School of Tech:</strong> Enrolled in Bangalore for an industry-crafted 4-year Computer Science program.
+            </div>
+          </article>
+        </div>
+
+        <div class="info-note">
+          <strong>Academic Discipline:</strong> Strong quantitative preparation from national entrance exams enables me to approach algorithmic problem-solving and software architecture with rigor.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: SPORTS ACHIEVEMENTS -->
+    <section id="sports" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Sports Achievements</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">Championship victories, track & field medals, and team athletics.</p>
+        </div>
+
+        <!-- Sports Grid using CSS Grid -->
+        <div class="cards-grid-2">
+          <!-- Cricket -->
+          <article class="card">
+            <div class="card-header-flex">
+              <span class="card-label">Cricket</span>
+              <span class="badge-winner">Winner</span>
+            </div>
+            <h3 class="card-title">Tournament Championship</h3>
+            <p class="card-role">Role: All-Rounder & Match Contender</p>
+            <p class="card-desc">
+              Won inter-school and college tournament championships playing as an all-rounder. Enjoy building partnerships, bowling in death overs, and performing under scoreboard pressure.
+            </p>
+          </article>
+
+          <!-- Athletics Relay -->
+          <article class="card">
+            <div class="card-header-flex">
+              <span class="card-label">Athletics</span>
+              <span class="badge-silver">Silver Medal</span>
+            </div>
+            <h3 class="card-title">4 &times; 100m Relay Sprint</h3>
+            <p class="card-role">Role: Sprint Specialist</p>
+            <p class="card-desc">
+              Won the silver medal in the 4&times;100 meter track relay race. Trained intensely on acceleration curves, blind baton exchanges, and synchronized stride timing.
+            </p>
+          </article>
+
+          <!-- Football -->
+          <article class="card">
+            <div class="card-header-flex">
+              <span class="card-label">Football</span>
+              <span class="badge-player">Active Player</span>
+            </div>
+            <h3 class="card-title">Competitive Football Matches</h3>
+            <p class="card-role">Position: Forward / Winger</p>
+            <p class="card-desc">
+              Regularly compete in campus and inter-house football leagues. Known for swift sprint runs on the wings, 90-minute stamina, and attacking passes.
+            </p>
+          </article>
+
+          <!-- Volleyball -->
+          <article class="card">
+            <div class="card-header-flex">
+              <span class="card-label">Volleyball</span>
+              <span class="badge-player">Active Player</span>
+            </div>
+            <h3 class="card-title">Campus Volleyball Matches</h3>
+            <p class="card-role">Position: Spiker & Frontline</p>
+            <p class="card-desc">
+              Play competitive volleyball focusing on quick rotational positioning, front-court spike attacks, and clear real-time court communication with teammates.
+            </p>
+          </article>
+        </div>
+
+        <div class="info-note">
+          <strong>Sports Insight:</strong> Competitive sports have instilled in me high stamina, rapid recovery after setbacks, and the belief that team synchronization always outperforms solo efforts.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Contact Details</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">Reach out for academic collaborations, startup chats, or inquiries.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Left Column: Contact Links -->
+          <div class="contact-links-box">
+            <div class="contact-card">
+              <h3>Direct Email</h3>
+              <div class="contact-email-text">smahavir482008@gmail.com</div>
+              <a href="mailto:smahavir482008@gmail.com" class="btn-primary">Open Email &rarr;</a>
+            </div>
+
+            <div class="contact-card">
+              <h3>Social Media Handles</h3>
+              <ul class="social-links-list">
+                <li>
+                  <a href="https://www.linkedin.com/mynetwork/grow/" target="_blank" rel="noreferrer" class="social-item">
+                    <span>LinkedIn Profile</span>
+                    <span class="arrow">&rarr;</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" class="social-item">
+                    <span>Instagram Profile</span>
+                    <span class="arrow">&rarr;</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact-card">
+              <h3>Campus Location</h3>
+              <p style="font-size: 0.85rem; color: #475569;">
+                Scaler School of Technology, Electronic City, Bangalore, Karnataka, India
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Pure HTML Contact Form -->
+          <div class="contact-form-box">
+            <h3>Send a Message</h3>
+            <form action="mailto:smahavir482008@gmail.com" method="post" enctype="text/plain">
+              <div class="form-group">
+                <label for="user-name">Your Full Name:</label>
+                <input type="text" id="user-name" name="name" placeholder="e.g. Professor Sharma / John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="user-email">Your Email Address:</label>
+                <input type="email" id="user-email" name="email" placeholder="e.g. name@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="user-message">Your Message:</label>
+                <textarea id="user-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="form-submit-btn">Submit Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== 3. FOOTER (<footer>) ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="footer-copy">
+        &copy; 2026 Mahavir &bull; Scaler School of Technology, Bangalore &bull; Pure HTML5 &amp; CSS3 Project
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+           
